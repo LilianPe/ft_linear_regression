@@ -1,31 +1,57 @@
-# ft_linear_regression
+# 📈 ft_linear_regression
 
-## Launch it
+**ft_linear_regression** is an introductory **Machine Learning project** developed at **42 School**.  
+The goal is to implement a simple **linear regression algorithm**, without using any ML libraries, in order to **predict the price of a car based on its mileage** 🛻.
 
-```
-bash
+---
+
+## 🚀 Objectives
+
+- 🧠 Understand how linear regression works.
+- 📊 Implement the gradient descent algorithm.
+- 🔧 Normalize data for better training efficiency.
+- 💾 Save and reuse the model parameters.
+- 🎯 Predict car prices based on mileage input.
+
+---
+
+## 🛠️ Technologies
+
+- **Language**: Python 🐍  
+- **Libraries**: NumPy, Matplotlib  
+
+---
+
+## 🌐 Features
+
+- Trains a linear model using a `.csv` dataset 📄  
+- Animated visualization of the regression line during training 📈  
+- Predicts car price from mileage 🔮  
+- Saves learned parameters into a `.json` file 💾
+
+---
+
+## 🧪 How to Run
+
+### 1. Initialize the model values 🛠️:
+
+```bash
 make
 ```
-or 
-```
-bash
+or
+```bash
 make re
 ```
-to init the values that estimatePrice.py use
+to reset it
 
-Then launch
-
-```
-bash
+### 2. Train the model 🤖:
+```bash
 python3 ft_linear_regression.py
 ```
 
-to train the model
-
-finally, you can do
-
-```
-bash
+### 3. Make a prediction 🔮:
+You can now run
+```bash
 python3 estimatePrice.py
 ```
-Then enter a mileage and it will give you the predicted price for it!
+Then enter the mileage you want, then it will prompt the price predicted for it 🎯!
